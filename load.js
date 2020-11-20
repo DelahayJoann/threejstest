@@ -4,7 +4,10 @@ import {OBJLoader2} from 'https://threejsfundamentals.org/threejs/resources/thre
 
     function main() {
     const canvas = document.querySelector('#c');
-    const renderer = new THREE.WebGLRenderer({canvas});
+    const renderer = new THREE.WebGLRenderer({
+        canvas,
+        alpha: true,
+    });
 
     const fov = 75;
     const aspect = 2;  // the canvas default
@@ -18,7 +21,7 @@ import {OBJLoader2} from 'https://threejsfundamentals.org/threejs/resources/thre
     controls.update();
 
     const scene = new THREE.Scene();
-    scene.background = new THREE.Color('black');
+    //scene.background = new THREE.Color('black');
 
 /*     {
         const planeSize = 40;
