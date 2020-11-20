@@ -1,6 +1,6 @@
     import * as THREE from '../src//three.js/build/three.module.js';
     import {OrbitControls} from '../src//three.js/examples/jsm/controls/OrbitControls.js';
-    import {OBJLoader2} from '../src//three.js/examples/jsm/loaders/OBJLoader2.js';
+    import {OBJLoader2} from '../src/three.js/examples/jsm/loaders/OBJLoader2.js';
 
     function main() {
     const canvas = document.querySelector('#c');
