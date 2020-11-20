@@ -18,7 +18,7 @@ import {OBJLoader2} from 'https://threejsfundamentals.org/threejs/resources/thre
     controls.update();
 
     const scene = new THREE.Scene();
-    //scene.background = new THREE.Color('black');
+    scene.background = new THREE.Color('black');
 
 /*     {
         const planeSize = 40;
